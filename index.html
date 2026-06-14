@@ -1,1 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Credit Analysis Pro V4</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link
+rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link
+rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- MENU -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-chart-line"></i>
+
+            <h2>Credit Analysis</h2>
+
+            <span>V4</span>
+
+        </div>
+
+        <nav>
+
+            <button class="menu active" data-page="dashboard">
+
+                <i class="fa-solid fa-house"></i>
+
+                Dashboard
+
+            </button>
+
+            <button class="menu" data-page="operacao">
+
+                <i class="fa-solid fa-file-signature"></i>
+
+                Operação
+
+            </button>
+
+            <button class="menu" data-page="dre">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                DRE
+
+            </button>
+
+            <button class="menu" data-page="fluxo">
+
+                <i class="fa-solid fa-money-bill-trend-up"></i>
+
+                Fluxo
+
+            </button>
+
+            <button class="menu" data-page="bacen">
+
+                <i class="fa-solid fa-building-columns"></i>
+
+                BACEN
+
+            </button>
+
+            <button class="menu" data-page="kyc">
+
+                <i class="fa-solid fa-user-check"></i>
+
+                KYC
+
+            </button>
+
+            <button class="menu" data-page="politica">
+
+                <i class="fa-solid fa-scale-balanced"></i>
+
+                Política
+
+            </button>
+
+            <button class="menu" data-page="historico">
+
+                <i class="fa-solid fa-clock-rotate-left"></i>
+
+                Histórico
+
+            </button>
+
+            <button class="menu" data-page="config">
+
+                <i class="fa-solid fa-gear"></i>
+
+                Configurações
+
+            </button>
+
+        </nav>
+
+    </aside>
+
+    <!-- CONTEÚDO -->
+
+    <main class="main">
+
+        <header class="topbar">
+
+            <div>
+
+                <h1 id="tituloPagina">
+
+                    Dashboard
+
+                </h1>
+
+                <small>
+
+                    Sistema Inteligente de Análise de Crédito
+
+                </small>
+
+            </div>
+
+            <div class="usuario">
+
+                Wagner Bressan
+
+            </div>
+
+        </header>
+
+        <!-- DASHBOARD -->
+
+        <section
+        id="dashboard"
+        class="page active">
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <span>Receita Líquida</span>
+
+                    <h2 id="cardReceita">
+
+                        R$ 0,00
+
+                    </h2>
+
+                </div>
+
+                <div class="card">
+
+                    <span>EBITDA</span>
+
+                    <h2 id="cardEbitda">
+
+                        R$ 0,00
+
+                    </h2>
+
+                </div>
+
+                <div class="card">
+
+                    <span>FMM</span>
+
+                    <h2 id="cardFMM">
+
+                        R$ 0,00
+
+                    </h2>
+
+                </div>
+
+                <div class="card">
+
+                    <span>Spread</span>
+
+                    <h2 id="cardSpread">
+
+                        -
+
+                    </h2>
+
+                </div>
+
+                <div class="card">
+
+                    <span>Rating</span>
+
+                    <h2 id="cardRating">
+
+                        -
+
+                    </h2>
+
+                </div>
+
+                <div class="card">
+
+                    <span>BV Score</span>
+
+                    <h2 id="cardBV">
+
+                        -
+
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <div class="welcome">
+
+                <h2>
+
+                    Bem-vindo ao Credit Analysis Pro V4
+
+                </h2>
+
+                <p>
+
+                    Selecione um módulo no menu à esquerda para iniciar sua análise.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- As demais páginas serão adicionadas nos próximos passos -->
+
+    </main>
+
+</div>
+
+<script src="js/util.js"></script>
+<script src="js/app.js"></script>
+<script src="js/dre.js"></script>
+<script src="js/fluxo.js"></script>
+<script src="js/bacen.js"></script>
+<script src="js/spread.js"></script>
+<script src="js/parecer.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/kyc.js"></script>
+
+</body>
+
+</html>
